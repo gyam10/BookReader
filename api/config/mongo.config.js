@@ -1,6 +1,6 @@
 const mongoose = require("mongoose");
-// const dbUrl = "mongodb://127.0.0.1:27017/book";
-const dbUrl = process.env.MONGODB_URL;
+const dbUrl = "mongodb://127.0.0.1:27017/book";
+// const dbUrl = process.env.MONGODB_URL;
 mongoose.connect(
   dbUrl,
   {
