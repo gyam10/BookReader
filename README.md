@@ -1,17 +1,18 @@
 # BookReader
 This is a book reader application built using the MERN stack (MongoDB, Express.js, React.js, and Node.js). It allows users to browse and read books online.
 
-Features
-User registration and authentication
-Book listing and details
-Reading view with page navigation
-CRUD operations for books (admin-only)
-Technologies Used
-Front-end: React.js, HTML, CSS, JavaScript
-Back-end: Node.js, Express.js, MongoDB
-Additional Libraries: Axios, bcrypt, JsonWebToken, slugify, etc..
+# Features
+ -User registration and authentication
+ -Book listing and details
+ -CRUD operations for books (admin-only)
+ -Adding books to fav and removing
+ 
+# Technologies Used
+ -Front-end: React.js, HTML, CSS, JavaScript,Bootstrap
+ -Back-end: Node.js, Express.js, MongoDB,Redux
+ -Additional Libraries: Axios, bcrypt, JsonWebToken, slugify, etc..
 
-#Installation
+# Installation
 1. Clone the repository: git clone 
 2. Navigate to the project directory: cd BookReader
 3. Install the dependencies:
