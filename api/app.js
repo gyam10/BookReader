@@ -45,14 +45,14 @@ app.use((error, req, res, next) => {
   });
 });
 // For local Host
-app.listen(5000, "localhost", (err) => {
-  if (err) {
-    console.error("APP: ", err);
-    console.log("Error listening to port 5000//");
-  } else {
-    console.log("Server is listening to port 5000//");
-    console.log("Press CTRL+C to end server");
-  }
-});
+// app.listen(5000, "localhost", (err) => {
+//   if (err) {
+//     console.error("APP: ", err);
+//     console.log("Error listening to port 5000//");
+//   } else {
+//     console.log("Server is listening to port 5000//");
+//     console.log("Press CTRL+C to end server");
+//   }
+// });
 
-// app.listen(process.env.PORT || 80);
+app.listen(process.env.PORT || 80);
